@@ -1,0 +1,154 @@
+
+body{
+    background-color: rgba(13, 14, 13, 0.467);
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+
+    line-height: 20px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+.box-1{
+    background-color: rgb(10, 88, 56);
+    color: #111;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    padding: 20px;
+    margin-top: 20px;
+    
+    
+}
+.container{
+    width: 80%;
+    margin:auto
+}
+h2{
+    color: rgb(1, 20, 82);
+}
+#heading-1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    word-spacing: 17px;
+}
+.poka{
+    border: 2px double wheat;
+    padding: 0px 10px;
+    margin-top: 60px;
+    color: whitesmoke;
+    background-color:darkred;
+    border-radius: 15px;
+}
+.delta{
+    border:2px double wheat ;
+    padding: 0px 10px;
+    margin-top:  15px; 
+    color:whitesmoke;
+    background-color:darkred;
+    border-radius: 15px;
+}
+.omega{
+    border:2px double wheat ;
+    padding: 0px 10px;
+    margin-top:  15px; 
+    color:whitesmoke;
+    background-color: darkred;
+    border-radius: 15px;
+}
+.alpha{
+    border:2px double wheat ;
+    padding: 0px 10px;
+    margin-top:  15px; 
+    color:whitesmoke;
+    background-color: darkred;
+    border-radius: 15px;
+}
+.beta{
+    border: solid darkslategrey;
+    margin: 15px;
+    padding: 0px;
+    background-color: darkred;
+    border-radius: 35px;
+    
+}
+.gama{
+    border: 2px dotted black;
+    margin: 35px;
+    padding: 0px 20px;
+    background-color: cadetblue;
+    color: gold;
+    border-radius: 15px;
+}
+
+
+#lop{
+    border: 2px solid rgb(233, 168, 47) ;
+    color: white;
+    background-color: cyan;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-top: none;
+    padding: 0px 15px;
+}
+.gopher{
+    height: 40%;
+    width:40% ;
+}
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0px;
+    padding-left: 20px;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+    list-style-image: url(../t.jpg);
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display:block ;
+}
+.my-form input [type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
